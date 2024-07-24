@@ -1,0 +1,38 @@
+.offers{
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(235, 201, 242), white);
+    border-radius: 15px;
+    padding: 10px 0;
+}
+.offers_left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.offers_left p{
+    font-size: 2.5vw;
+}
+
+.only{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.check_now{
+    width: 9vw;
+    height: 6vh;
+    background: orangered;
+    border: none;
+    border-radius: 50px;
+    font-size: 1vw;
+    color: white;
+
+}
+
+.offers_right img{
+    width: 17vw;
+}

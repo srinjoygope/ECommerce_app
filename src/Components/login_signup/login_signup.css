@@ -1,0 +1,51 @@
+.login_signup{
+    background: linear-gradient(180deg, rgb(223, 174, 223), white);
+    height: fit-content;
+    padding: 70px 0;
+}
+.login_signup_container{
+    width: 35vw;
+    margin: auto;
+    background: white;
+    border: none;
+    /* border-radius: 30px; */
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.login_signup_container input{
+    height: 45px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.continue{
+    height: 50px;
+    background: orangered;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.login_signup_container p{
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    gap: 8px;
+}
+.orange{
+    color: orangered;
+    font-weight: 600;
+}
+.terms{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+.terms input{
+    height: 10px;
+    
+}

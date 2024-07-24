@@ -1,0 +1,49 @@
+.news_update{
+    width: 70%;
+    margin: 50px auto 0;
+    background: linear-gradient(180deg, rgb(236, 210, 241), white);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 30px 0;
+
+}
+.news_update h1{
+    text-align: center;
+}
+.news_update p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.email_input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    width: 40%;
+    border: 1px solid;
+    background: white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.email_input input{
+    height: 45px;
+    border: none;
+    outline: none;
+    width: 90%;
+    padding-left: 10px;
+}
+
+.email_input button{
+    height: 45px;
+    background: #000;
+    color: white;
+    border-radius: 30px;
+    width: 25%;
+    border: none;
+}

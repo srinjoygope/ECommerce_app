@@ -1,0 +1,27 @@
+.new_collections{
+    width: 70%;
+    margin: auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; */
+}
+.new_collections hr{
+    width: 15%;
+    height: 1px;
+    background: #000;
+    margin: auto;
+}
+
+.new_collections h1{
+    text-align: center;
+    margin: 20px 0;
+}
+.new_items{
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
